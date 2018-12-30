@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/bReport"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Report a missing person"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="36dp"
+        android:layout_above="@+id/bFound" />
+
+    <Button
+        android:id="@+id/bFound"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="139dp"
+        android:text="Have you found anyone?"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
